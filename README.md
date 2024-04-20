@@ -50,4 +50,16 @@ Result from the YOLO model can be seen in the image below,
 
 For the initial run below features were calculated:
 
-**Velocity of the Javelin:** It was calculated via calculating the change in the position of bottom left corner point of the javelins bounding box between two consecutive frames just before release and dividing it by time difference between two consecutive frames. 
+**Velocity of the Javelin:** The velocity of the Javelin was calculated by determining the change in the position of the bottom-left corner point of the javelin's bounding box between two consecutive frames just before release. This change in position was divided by the time difference between the two consecutive frames.
+
+**Height of release:** The height of realese was calculated by determining the distance between bottom of the thrower's bounding box and middle part of the javelin's bounding box.
+
+**Distance from the foul line** It was calculated via manually creating a line (red line as showen in the image above) using OpenCV at the foul line at the point of release and calculating the distance between that line and the midlle portion of the thrower's bounding box.
+
+**Javelin's angle:** It was calculated by determining the angle between diagonal and bottom of the javelin's bounding box.
+
+**Angle of Velocity:** It was calculated by determining the angle between the velocity of javelin and bottom of the javelin's bounding box.
+
+Pixel coordinates were converted to SI units (meter) by first calculating the length of the Javelin in pixel coordinates in the frame where the whole javelin is present. This was achieved by calculating the length of the diagonal of the javelin's bounding box. Knowing the actual length of the javelin being used in meters, a ratio of pixel to meters in the video frames was obtained. This ratio was then used to convert pixelated units to SI units (meter).
+
+Initially calculated features can be accessed from [here](./Initially_generated_features.csv)
