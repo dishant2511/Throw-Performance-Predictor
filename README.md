@@ -12,7 +12,9 @@ The data augmentation pipeline is implemented in `Dataset_Generator.ipynb`, whic
 Augmentation Techniques
 
 Horizontal Flip: Flips the image horizontally.
+
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
 Vertical Flip: Flips the image vertically.
 Noise Addition: Adds random noise to the image.
 Scaling: Scales the image by a random factor.
