@@ -8,13 +8,13 @@ The initial dataset can be accessed from [here](https://drive.google.com/file/d/
 
 ## Data Augmentation
 
-The data augmentation pipeline is implemented in  > Dataset_Generator.ipynb, which is included in this repository. The notebook contains the code for applying various augmentation techniques to the images, along with adjusting the annotations accordingly.
+The data augmentation pipeline is implemented in Dataset_Generator.ipynb, which is included in this repository. The notebook contains the code for applying various augmentation techniques to the images, along with adjusting the annotations accordingly.
 Augmentation Techniques
 
-    Horizontal Flip: Flips the image horizontally.
-    Vertical Flip: Flips the image vertically.
-    Noise Addition: Adds random noise to the image.
-    Scaling: Scales the image by a random factor.
-    Jittering: Applies random jitters to the image.
-    Color Alteration: Changes the color of the image.
-    Blur: Applies blur effect to the image.
+Horizontal Flip: Flips the image horizontally.
+Vertical Flip: Flips the image vertically.
+Noise Addition: Adds random noise to the image.
+Scaling: Scales the image by a random factor.
+Jittering: Applies random jitters to the image.
+Color Alteration: Changes the color of the image.
+Blur: Applies blur effect to the image.
