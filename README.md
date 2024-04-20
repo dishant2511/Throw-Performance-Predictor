@@ -12,7 +12,7 @@ The data augmentation pipeline is implemented in Dataset_Generator.ipynb, which 
 Augmentation Techniques
 
 Horizontal Flip: Flips the image horizontally.
-Vertical Flip: Flips the image vertically.
+/n Vertical Flip: Flips the image vertically.
 Noise Addition: Adds random noise to the image.
 Scaling: Scales the image by a random factor.
 Jittering: Applies random jitters to the image.
