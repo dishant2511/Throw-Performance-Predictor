@@ -47,3 +47,7 @@ Result from the YOLO model can be seen in the image below,
 ## Feature calculations
 
 ![features](./features.png)
+
+For the initial run below features were calculated:
+
+**Velocity of the Javelin:** It was calculated via calculating the change in the position of bottom left corner point of the javelins bounding box between two consecutive frames just before release and dividing it by time difference between two consecutive frames. 
