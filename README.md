@@ -8,7 +8,7 @@ The initial dataset can be accessed from here. It contains 800 images annotated 
 
 ## Data Augmentation
 
-The data augmentation pipeline is implemented in 'Dataset_Generator.ipynb', which is included in this repository. The notebook contains the code for applying various augmentation techniques to the images, along with adjusting the annotations accordingly.
+The data augmentation pipeline is implemented in $ Dataset_Generator.ipynb $, which is included in this repository. The notebook contains the code for applying various augmentation techniques to the images, along with adjusting the annotations accordingly.
 Augmentation Techniques
 
     Horizontal Flip: Flips the image horizontally.
