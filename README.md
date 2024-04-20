@@ -41,4 +41,4 @@ Then trained YOLO on the augmented dataset and model can accessed from [here](ht
 
 Result from the YOLO model can be seen in the image below,
 
-![blur](./blur.png)
+![YOLO](./YOLO.png)
