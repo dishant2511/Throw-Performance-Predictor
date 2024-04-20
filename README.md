@@ -13,7 +13,7 @@ Augmentation Techniques
 
 Horizontal Flip: Flips the image horizontally.
 
-![horizontal flip](./ horizontal_flip.png)
+![horizontal flip](./horizontal_flip.png)
 
 Vertical Flip: Flips the image vertically.
 Noise Addition: Adds random noise to the image.
