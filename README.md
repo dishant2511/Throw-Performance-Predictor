@@ -11,7 +11,7 @@ The initial dataset can be accessed from [here](https://drive.google.com/file/d/
 The data augmentation pipeline is implemented in `Dataset_Generator.ipynb`, which is included in this repository. The notebook contains the code for applying various augmentation techniques to the images, along with adjusting the annotations accordingly.
 Augmentation Techniques
 
-Horizontal Flip: Flips the image horizontally.
+**Horizontal Flip:** Flips the image horizontally.
 
 ![horizontal flip](./horizontal_flip.png)
 
