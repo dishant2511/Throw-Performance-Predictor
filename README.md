@@ -4,7 +4,7 @@ This repository contains the dataset and code used for creating and augmenting a
 
 ## Dataset
 
-The initial dataset can be accessed from (here)[https://drive.google.com/file/d/1Aua_LE0dlsybzCye1RHBhvpQkHfOH_KX/view?usp=sharing]. It contains 800 images annotated with Javelins and racks.
+The initial dataset can be accessed from [here](https://drive.google.com/file/d/1Aua_LE0dlsybzCye1RHBhvpQkHfOH_KX/view?usp=sharing). It contains 800 images annotated with Javelins and racks.
 
 ## Data Augmentation
 
