@@ -34,3 +34,11 @@ Augmentation Techniques
 **Blur:** Applies blur effect to the image.
 
 ![blur](./blur.png)
+
+## YOLO Model
+
+Then trained YOLO on the augmented dataset and model can accessed from [here](https://drive.google.com/file/d/1QEc2eMhfi-WKVwhhZAETUxegsKjV7xHF/view?usp=sharing).
+
+Result from the YOLO model can be seen in the image below,
+
+![blur](./blur.png)
