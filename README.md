@@ -15,9 +15,22 @@ Augmentation Techniques
 
 ![horizontal flip](./horizontal_flip.png)
 
-Vertical Flip: Flips the image vertically.
-Noise Addition: Adds random noise to the image.
-Scaling: Scales the image by a random factor.
-Jittering: Applies random jitters to the image.
-Color Alteration: Changes the color of the image.
-Blur: Applies blur effect to the image.
+**Vertical Flip:** Flips the image vertically.
+
+![vertical flip](./vertical_flip.png)
+
+**Noise Addition:** Adds random noise to the image.
+
+![noise](./noise.png)
+
+**Jittering:** Applies random jitters to the image.
+
+![jitters](./jitters.png)
+
+**Color Alteration:** Changes the color of the image.
+
+![color_change](./color_change.png)
+
+**Blur:** Applies blur effect to the image.
+
+![blur](./blur.png)
